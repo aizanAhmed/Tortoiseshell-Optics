@@ -111,6 +111,43 @@ nav {
     }
 }
 
+@media only screen and (max-width: 760px) {
+    nav ul.menu{
+        display: none;
+    }
+
+    nav ul.other-menu {
+        display: block;
+    }
+
+    header {
+        background-position: 40%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .logo span {
+        display: none;
+    }
+    
+    header {
+        background-position: 20%;
+        height: 17rem;
+    }
+
+    .mini-banner {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 9rem;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    .mini-banner h1 {
+        font-size: 1rem;
+    }
+}
+
 /* Offer Section */
 
 .offer {
@@ -144,6 +181,27 @@ nav {
    text-align: center;
 }
 
+@media only screen and (max-width: 580px) {
+    .offer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3.77rem;
+    }
+
+    .fitting {
+        padding: 1.54rem 0;
+    }
+
+    .delivery {
+        padding-top: 1.54rem;
+    }
+
+    .offer span {
+        font-size: 0.77rem;
+    }
+}
+
 /* Company Info Section */
 
 .info {
@@ -171,6 +229,36 @@ nav {
    margin-bottom: 5rem;
 }
 
+@media only screen and (max-width: 760px) {
+    .company-info {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .company-info {
+        flex-direction: column;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .info .title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .info p {
+        padding-top: 1rem;
+        font-size: 0.77rem;
+    }
+
+    .info .phil {
+        padding-bottom: 4rem;
+    }
+}
+
 /* Footer Section */
 
 footer {
@@ -184,6 +272,16 @@ footer img {
     height: 1.5rem;
     padding-left: 4rem;
     padding-right: 1rem;
+}
+
+@media only screen and (max-width: 580px) {
+    footer span {
+        display: none;
+    }
+
+    footer {
+        justify-content: center;
+    }
 }
 
  
