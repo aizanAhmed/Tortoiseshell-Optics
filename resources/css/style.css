@@ -26,3 +26,66 @@ body {
 .flex {
     display: flex;
 }
+
+/* Header Section */
+
+header {
+    background-image: url(../images/glasses-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    padding-top: 1rem;
+}
+
+nav {
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 1.5rem;
+    padding-right: 1rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    padding: 0 1rem;
+}
+
+.menu :last-child {
+    padding-right: 0;
+}
+
+.other-menu {
+    display: none;
+}
+
+.mini-banner {
+    background-color: white;
+    padding: 1.5rem 5rem;
+    margin-top: 10rem;
+    margin-right: -2rem;
+}
+
+.flex {
+    justify-content: flex-end;
+}
+
+.mini-banner h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
