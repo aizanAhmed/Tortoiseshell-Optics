@@ -1,0 +1,28 @@
+/* "Tamming" Box Model With Reset */
+
+html { 
+    box-sizing: border-box; 
+  }
+  *, *:before, *:after { 
+    box-sizing: inherit;
+}
+  
+  /* Universal Styles */
+  
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.4;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
