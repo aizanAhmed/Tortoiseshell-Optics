@@ -122,3 +122,29 @@ nav {
 .offer span {
    text-align: center;
 }
+
+/* Company Info Section */
+
+.info {
+    width: 35%;
+    margin-right: 5%;
+}
+
+.info .title {
+    display: inline-block;
+    background-color: cadetblue;
+    width: 10rem;
+    padding: 0.5rem 1.25rem;
+}
+
+.info p {
+    padding-top: 1rem;
+}
+
+.company-info {
+   display: flex;
+   margin-top: 3rem;
+   margin-bottom: 5rem;
+}
+
+ 
