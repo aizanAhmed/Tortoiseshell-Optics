@@ -89,3 +89,36 @@ nav {
     font-weight: bold;
     line-height: 1.2;
 }
+
+/* Offer Section */
+
+.offer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.exam,
+.fitting,
+.delivery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 8rem;
+    padding: 0 3rem;
+}
+
+.exam img {
+    width: 3.5rem;
+}
+
+.fitting img,
+.delivery img {
+    width: 5rem;
+}
+
+.offer span {
+   text-align: center;
+}
