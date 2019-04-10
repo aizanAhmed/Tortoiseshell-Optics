@@ -90,6 +90,27 @@ nav {
     line-height: 1.2;
 }
 
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+
+    header {
+        padding-top: 0;
+        height: 22rem;
+    }
+
+    .mini-banner {
+        margin-top: 5rem;
+        margin-right: 2rem;
+        padding: 0.75rem 4rem;
+    }
+
+    .mini-banner h1 {
+        font-size: 1.33rem;
+    }
+}
+
 /* Offer Section */
 
 .offer {
